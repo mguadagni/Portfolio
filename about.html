@@ -27,11 +27,21 @@
         font-size: 40px;
       }
       #td2 {
-        width: 50%;
+        width: 60%;
         text-align: center;
       }
       #t1 {
         width: 50%;
+      }
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+      .row::after {
+         content: "";
+          clear: both;
+          display: table;
       }
     </style>
   </head>
@@ -60,14 +70,18 @@
         </tr>
       </thead>
     </table>
-    <h1>About Me</h1>
+    
+      <h1>About Me</h1>
+      
       <img src ="michael.jpg"><br>
+      
       <p style="width: 900px;">My name is Michael Guadagni and above is a picture of myself
           when I was in Block Island last summer. I am currently 21 years old and live in East Greenwich, Rhode Island. I have lived
         in this town for all life and have only left on a few occasions. I just graduated from the University of Rhode Island in the 
         spring of 2021 with a bachelor's degree in mechanical engineering. In the past year, I have found my passion of coding and 
         programming. I am now taking a few programming classes at URI to eventually obtain a Masters degree in computer science. My 
         end goal is to become a succesful software engineer.</p><br>
+      
       <table id="t1">
           <tr id="tr1">
             <td id="td1"> 
@@ -78,10 +92,20 @@
           She also graduated with a bachelor's degree in mechanical engineering. She obtained a full time job in Massachusetts. My family
           consists of my dad, mom, older brother, and older sister. My brother, James, graduated from URI last year and currently still 
           lives in Rhode Island. My sister, Hannah, also graduated from URI a few years ago to become a nurse in Tampa, Florida. Pictured 
-          below are my two pets. My dog Daisy and my cat Munchkin. </p>
+          below are my two pets. My dog, Daisy, and my cat, Munchkin. </p>
             </td>
           </tr>
-      </table>
+      </table><br>
+      
+      <div class="row">
+  <div class="column">
+    <img src="daisy.jpg">
+  </div>
+  <div class="column">
+    <img src="munchkin.jpg">
+  </div>
+      </div>
+      
     </center>
   </body>
 
