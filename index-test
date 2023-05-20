@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Overall Section -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MGuadagni Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo"></i>Michael Guadagni</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="experience.html" class="navbar__links">Experience</a>
+          </li>
+          <li class="navbar__item">
+            <a href="about.html" class="navbar__links">Personal</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <div class="headshot__img">
+            <br><br><br><br>
+            <img src="michael.jpg" alt="headshot" width="200" height="200">
+          </div>
+          <bio><br><br>
+            TEST
+            <br><br>
+          </bio><br><br>
+          <!--
+          <div class = "exp">
+            <div class = "column1">
+              <h3>
+                2 Years:
+              </h3> 
+              <p>
+                Python
+              </p>
+
+            </div>
+
+            <div class = "column2">
+              <h3>
+                1 Year:
+              </h3> 
+              <p>
+                C++
+                Ada
+              </p>
+            </div>
+
+            <div class = "column3">
+              <h3>
+                Educational:
+              </h3> 
+              <p>
+                Java
+                C
+                SQL
+              </p>
+
+            </div>
+
+            <div class = "column4">
+              <h3>
+                Personal:
+              </h3> 
+              <p>
+                JavaScript
+                HTML
+                CSS
+              </p>
+
+            </div>
+          </div>-->
+          
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="https://www.linkedin.com/in/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://github.com/"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://onedrive.live.com"
+              target="_blank"
+              aria-label="Resume"
+            >
+              <i class="fa fa-file"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href=""
+              target="_blank"
+              aria-label="Insta"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
